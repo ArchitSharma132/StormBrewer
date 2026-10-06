@@ -97,7 +97,3 @@ The console report groups findings by category and severity (critical, high, med
 - Some findings (for example, exposed sensitive paths) can be false positives on sites that return HTTP 200 for all unknown paths. The tool compares against a baseline request to reduce this, but manual verification is still recommended.
 - The outdated-library detection uses a small hardcoded list of version thresholds and is not a substitute for a real CVE database or software composition analysis tool.
 - DNS-based checks (SPF/DMARC) are skipped for local or private hostnames.
-
-## License
-
-Add your preferred license here.
